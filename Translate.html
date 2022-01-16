@@ -10,13 +10,13 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
 rel="stylesheet">
 <body>
-    <h1>My Translater</h1>
-    <div id="main">
-        <h1 style="font-family: monospace;">Translate</h1>
-        <div id="div_1">
-                Translate from
+    
+    <div class="container">
+        <h1 style="font-family: monospace;">My Translater</h1>
+        <div>
+                <!-- Translate from -->
             <select onchange="getInp()" id="select1"></select> 
-                Translate into
+                To
             <select onchange="outInp()" id="select2"></select>
         </div>
         
@@ -27,6 +27,7 @@ rel="stylesheet">
                 placeholder="Input Query"
             >
             </textarea>
+            
             <textarea
                 readonly="readonly"
                 type="text"
@@ -36,8 +37,8 @@ rel="stylesheet">
         </div>
         <div>
             <button id="mic" onclick="speechToText()" class="material-icons-outlined">mic_off</button>
-            <button class='btn' onclick="Translate()">Translate</button>
-            <button class=btn onclick="speak()">Speak</button>
+            <button onclick="Translate()" class="material-icons-outlined">translate</button>
+            <button onclick="speak()" class="material-icons-outlined">volume_up</button>
         </div>
     </div>
     <script type="text/javascript" src="translate.js"></script>

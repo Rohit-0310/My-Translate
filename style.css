@@ -1,3 +1,39 @@
 body{
     background-color: cyan;
 }
+.container{
+    width: 100%;
+    margin : 10px auto;
+    text-align: center;
+}
+
+textarea{
+    width: 400px;
+    height:250px;
+    margin: 25px;
+    background-color: powderblue;
+    transition: background-color .5s;
+    border-radius: 10px;
+}
+textarea:hover {
+    background-color: gold;
+    border: 3px solid silver;
+    border-radius: 10px;
+  }
+
+select{
+    width: 300px;
+    /* height:250px; */
+    margin-left: 25px;
+    background-color: powderblue;
+    transition: background-color .5s;
+    border-radius: 10px;
+}
+/* {
+    background-color: powderblue;
+    transition: background-color .5s;
+  }
+  
+  a:hover {
+    background-color: gold;
+  } */
