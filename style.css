@@ -76,6 +76,19 @@ select{
     background-color: powderblue;
     transition: background-color .5s;
     border-radius: 10px;
+    /* font-size: 30px; */
+    font-family: 'Bebas Neue', sans-serif;
+    background: linear-gradient(transparent 5%, #074199 5%);
+    border: 0;
+    color: rgb(77, 5, 5);
+    border-radius: 20px;
+    letter-spacing: 3px;
+    box-shadow: 6px 0px 0px #00E6F6;
+    outline: transparent;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
 
 button{
