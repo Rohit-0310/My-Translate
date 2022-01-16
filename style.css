@@ -6,7 +6,7 @@ body{
     margin : 10px auto;
     text-align: center;
 }
-
+/* 
 textarea{
     width: 400px;
     height:250px;
@@ -20,7 +20,54 @@ textarea:hover {
     background-color: gold;
     border: 3px solid silver;
     border-radius: 10px;
+  } */
+
+  textarea,
+  textarea:after {
+    width: 400px;
+    height:250px;
+    margin: 25px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    background: linear-gradient(transparent 5%, #074199 5%);
+    border: 0;
+    color: #fff;
+    border-radius: 20px;
+    letter-spacing: 3px;
+    box-shadow: 6px 0px 0px #00E6F6;
+    outline: transparent;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
   }
+  textarea:hover {
+    background-color: gold;
+    border: 3px solid silver;
+    border-radius: 10px;
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 select{
     width: 300px;
