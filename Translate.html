@@ -7,7 +7,38 @@
     <title>My Translater</title>
 </head>
 <link rel="stylesheet" href="style.css" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+rel="stylesheet">
 <body>
     <h1>My Translater</h1>
+    <div id="main">
+        <h1 style="font-family: monospace;">Translate</h1>
+        <div id="div_1">
+                Translate from
+            <select onchange="get()" id="select1"></select> 
+                Translate into
+            <select onchange="out()" id="select2"></select>
+        </div>
+        
+        <div>
+            <textarea
+                type="text"
+                id="query"
+                placeholder="type or speak something"
+            >
+            </textarea>
+            <textarea
+                readonly="readonly"
+                type="text"
+                id="output"
+                placeholder="Output"
+            ></textarea>
+        </div>
+        <div>
+            <button id="mic" onclick="speechToText()" class="material-icons-outlined">mic_off</button>
+            <button class='btn' onclick="Translate()">Translate</button>
+            <button class=btn onclick="speak()">Speak</button>
+        </div>
+    </div>
 </body>
 </html>
