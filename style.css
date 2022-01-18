@@ -57,6 +57,7 @@ textarea:hover {
       display: grid;
       grid-template-columns: repeat(3, 30px);
       align-items:center;
+      margin:15px;
     }
     select{
       margin: 20px;
