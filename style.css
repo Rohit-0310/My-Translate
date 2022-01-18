@@ -60,6 +60,9 @@ textarea:hover {
     }
     select{
       margin: 20px;
+      margin-right: 100px;
+      text-align: center;
+      align-items:center;
     }
   }
 
