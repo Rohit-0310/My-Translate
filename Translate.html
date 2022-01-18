@@ -16,7 +16,6 @@ rel="stylesheet">
     <div class="container">
         <h1 style="font-family: monospace;">My Translater</h1>
         <div>
-                <!-- Translate from -->
             <select onchange="getInp()" id="select1"></select> 
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To
             <select onchange="outInp()" id="select2"></select>
@@ -39,9 +38,9 @@ rel="stylesheet">
             ></textarea>
         </div>
         <div>
-            <button id="mic" onclick="speechToText()" class="material-icons-outlined">mic_off</button>
-            <button onclick="Translate()"  class="button-49" role="button">translate</button>
-            <button onclick="speak()" class="material-icons-outlined">volume_up</button>
+            <button style="margin-right: 20px;" id="mic" onclick="speechToText()" class="material-icons-outlined">mic_off</button>
+            <button style="margin-right: 20px;" onclick="Translate()"  class="button-49" role="button">translate</button>
+            <button  onclick="speak()" class="material-icons-outlined">volume_up</button>
 
 
         </div>
