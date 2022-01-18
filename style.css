@@ -49,7 +49,19 @@ textarea:hover {
     border: 3px solid silver;
     border-radius: 10px;
   } 
-
+  @media (max-width: 12450px) {
+    textarea {
+      width: 300px;
+    }
+    button {
+      display: grid;
+      grid-template-columns: repeat(3, 30px);
+      align-items:center;
+    }
+    select{
+      margin: 20px;
+    }
+  }
 
 
 
