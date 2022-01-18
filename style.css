@@ -1,10 +1,13 @@
 body{
-    background-color: cyan;
+    background-color: #0F0E0E;
 }
 .container{
     width: 100%;
     margin : 10px auto;
     text-align: center;
+}
+h1{
+  color: #541212
 }
 /* 
 textarea{
