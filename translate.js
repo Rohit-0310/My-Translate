@@ -64,7 +64,7 @@
         speech.text = msg;
         speech.volume = 2;
         speech.rate = 1;
-        speech.pitch = 1;
+        speech.pitch = 1.5;
         window.speechSynthesis.speak(speech);
     }
     function speechToText() {
